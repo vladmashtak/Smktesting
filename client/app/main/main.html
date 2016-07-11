@@ -1,0 +1,28 @@
+<!-- Page Content -->
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-10 col-md-offset-1">
+
+            <div class="row">
+
+                <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="product in vm.productArray">
+                    <div class="thumbnail">
+                        <img ng-src="{{product.image}}" alt="img product">
+                        <div class="caption">
+                            <h4><a ui-sref="product({id: product._id})">{{product.title}}</a>
+                            </h4>
+                            <p>{{product.text | makeDescription}}</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- /.container -->

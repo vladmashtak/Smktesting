@@ -1,0 +1,35 @@
+#reviewText,
+#tableReview {
+    width:100%;
+    max-width: 500px;
+}
+
+#reviewForm {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding: 30px;
+}
+
+.star-rating {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.star {
+    padding: 1px;
+    color: #ddd;
+    font-size: 20px;
+    text-shadow: .05em .05em #aaa;
+    list-style-type: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-primary {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
