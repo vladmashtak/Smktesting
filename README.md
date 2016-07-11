@@ -5,5 +5,5 @@ test work for LighIT
 Что бы запустить нужен Node.js MongoDB port:27017.
 node_modules и bower_components я тоже залил.
 
-что бы запустить, в консоли : node server. 
+для запуска сервера, в консоли : node server. 
 http://localhost:8080
