@@ -1,7 +1,6 @@
 # Smktesting
-test work for LighIT
 
-Решил сделать и серверную часть.
+Серверная и клиентская часть.
 Что бы запустить нужен Node.js MongoDB port:27017.
 node_modules и bower_components я тоже залил.
 
